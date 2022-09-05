@@ -58,6 +58,47 @@ Jag började använda Bootstrap med hjälp av CDN länken jag kopierat från hem
     
 </div>
 
+<div class="container mt-3 px-5 ">
+  <h2>Formulär</h2>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="fname">Förrnamn:</label>
+      <input type="text" class="form-control" id="email" placeholder="Förrnamn" name="fname">
+    </div>
+    <div class="mb-3">
+      <label for="lname">Efternamn:</label>
+      <input type="text" class="form-control" id="lname" placeholder="Efternamn" name="lname">
+    </div>
+    <label for="sel1" class="form-label">Yrke</label>
+<!--select box-->
+    <select class="form-select">
+      <option>Webbredaktör</option>
+      <option>Webbutvecklare</option>
+      <option>IT-ingenjör</option>
+      <option>Programmerare</option>
+    </select>
+<!--Textarea-->
+<div class="mb-3 mt-3">
+  <label for="comment">Meddelande:</label>
+  <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+</div>
+<!--Check box-->
+
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Ett år eller mindre
+      </label>
+      
+    </div>
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Mer än ett år
+    </label><br>
+    <br>
+    <button type="submit" class="btn btn-dark">Skicka</button><br><br><br>
+  </form>
+
+</div>
+
       </div>
 
    
