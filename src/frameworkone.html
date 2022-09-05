@@ -8,6 +8,7 @@
   <title>Moment 1 CSS Frameworks</title>
 
 </head>
+
 <body>
 
   <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
@@ -52,178 +53,184 @@
     </div>
   </nav>
   <div class="container bg-gray-100">
-   <br><br><br>
-   <h1 class="text-4xl font-bold text-center">Tailwind CSS</h1><br><br><br>
-
-  <div class="box-content h-56 max-w-2xl p-4 border-4 justify-center m-auto bg-white">
-    <p>Jag valde Tailwind CSS som första ramverk, länken för webbsidan: <a class="text-red-400" href="https://tailwindcss.com">https://tailwindcss.com.</a></p>
-    <article>Tailwind CSS är ett front-end CSS ramverk som först kom ut Mai 2019 och den är just populär och har många användare mer än 260 tusen utvecklare.<br>För min del så ser jag att Tailwind CSS ger mer frihet att själv välja vilka stilar man ka använda på sin sida om man ställer emot andra ramverk som Bootsrap som exempel.<br>
-    Men jag ser också att det tar en längre tid för att lära sig de olika klasserna och hur man använder dem på rätt ställe.<br>
-  Jag installerade Tailwind CSS med hjälp av npm paketet, så installationen är lite krångligare än att använda Bootstrap.
-  </article>
-  </div>
-
-  <div class="container bg-white-700 mx-auto px-24 py-8 my-11">
-
-    <!--<p class="px-40 py-9">Testar</p>-->
-
-    <!--Form-->
-
-    <form>
-      <div class="mb-6 ">
-        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Förrnamn</label>
-        <input type="email" id="email"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="name@flowbite.com" required="">
-      </div>
-      <div class="mb-6">
-        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Efternamn</label>
-        <input type="password" id="password"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          required="">
-      </div>
-
-      <label for="jobs" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Yrke</label>
-      <select id="jobs"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-        <option>Webbutvecklare</option>
-        <option>Webbredaktör</option>
-        <option>Programmerare</option>
-        <option>It-ingenjör</option>
-      </select>
-      <br>
-
-
-      <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Meddelande</label>
-      <textarea id="message" rows="4"
-        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-        placeholder="Lämna ett meddelande..."></textarea>
-      <br>
-
-      <fieldset>
-        <legend class="sr-only">Checkbox variants</legend>
-        <span>Hur många års erfarenhet har du inom IT-branchen?</span><br><br>
-
-       
-        <div class="flex items-center mb-4">
-          <input id="checkbox-2" type="checkbox" value=""
-            class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-          <label for="checkbox-2" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ett år eller mindre</label>
-        </div>
-
-        <div class="flex items-center mb-4">
-          <input id="checkbox-3" type="checkbox" value=""
-            class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-          <label for="checkbox-3" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mer än ett år</label>
-        </div>
-
-      </fieldset>
-
-      <button type="submit"
-        class="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Skicka</button>
-    </form>
     <br><br><br>
+    <h1 class="text-4xl font-bold text-center">Tailwind CSS</h1><br><br><br>
 
-    <!--Table-->
-
-
-    <div class="overflow-x-auto relative rounded-xl">
-      <table class="w-full text-sm text-left  text-gray-500 dark:text-gray-400">
-        <thead class="text-ms text-white uppercase bg-gray-900 dark:bg-gray-700 dark:text-gray-400 ">
-          <tr>
-            <th scope="col" class="py-3 px-6">
-              Förrnamn
-            </th>
-            <th scope="col" class="py-3 px-6">
-              Efternamn
-            </th>
-            <th scope="col" class="py-3 px-6">
-              Yrke
-            </th>
-            <th scope="col" class="py-3 px-6">
-              Erfarenhet
-            </th>
-            
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
-              Samia
-            </th>
-            <td class="py-4 px-6">
-              Makni
-            </td>
-            <td class="py-4 px-6">
-              Webbredaktör
-            </td>
-            <td class="py-4 px-6">
-              Ett år eller mindre
-            </td>
-          </tr>
-          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
-              Laila
-            </th>
-            <td class="py-4 px-6">
-              Oulay
-            </td>
-            <td class="py-4 px-6">
-              Webbutvecklare
-            </td>
-            <td class="py-4 px-6">
-              Mer än ett år
-            </td>
-          </tr>
-          <tr class="bg-white dark:bg-gray-800">
-            <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
-              Souhaila
-            </th>
-            <td class="py-4 px-6">
-              Marzog
-            </td>
-            <td class="py-4 px-6">
-              It-ingenjör
-            </td>
-            <td class="py-4 px-6">
-              Ett år eller mindre
-            </td>
-          </tr>
-
-          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
-              Adi
-            </th>
-            <td class="py-4 px-6">
-              Kala
-            </td>
-            <td class="py-4 px-6">
-              Webbutvecklare
-            </td>
-            <td class="py-4 px-6">
-              Mer än ett år
-            </td>
-          </tr>
-
-          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
-              Sadi
-            </th>
-            <td class="py-4 px-6">
-              Haouari
-            </td>
-            <td class="py-4 px-6">
-              Webbredaktör
-            </td>
-            <td class="py-4 px-6">
-              Mer än ett år
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="box-content h-56 max-w-2xl p-4 border-4 justify-center m-auto bg-white">
+      <p>Jag valde Tailwind CSS som första ramverk, länken för webbsidan: <a class="text-red-400"
+          href="https://tailwindcss.com">https://tailwindcss.com.</a></p>
+      <article>Tailwind CSS är ett front-end CSS ramverk som först kom ut Mai 2019 och den är just populär och har många
+        användare mer än 260 tusen utvecklare.<br>För min del så ser jag att Tailwind CSS ger mer frihet att själv välja
+        vilka stilar man ka använda på sin sida om man ställer emot andra ramverk som Bootsrap som exempel.<br>
+        Men jag ser också att det tar en längre tid för att lära sig de olika klasserna och hur man använder dem på rätt
+        ställe.<br>
+        Jag installerade Tailwind CSS med hjälp av npm paketet, så installationen är lite krångligare än att använda
+        Bootstrap.
+      </article>
     </div>
 
-  </div>
+    <div class="container bg-white-700 mx-auto px-24 py-8 my-11">
+
+      <!--Form-->
+
+      <form>
+        <div class="mb-6 ">
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Förrnamn</label>
+          <input type="email" id="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="name@flowbite.com" required="">
+        </div>
+        <div class="mb-6">
+          <label for="password"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Efternamn</label>
+          <input type="password" id="password"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required="">
+        </div>
+
+        <label for="jobs" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Yrke</label>
+        <select id="jobs"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          <option>Webbutvecklare</option>
+          <option>Webbredaktör</option>
+          <option>Programmerare</option>
+          <option>It-ingenjör</option>
+        </select>
+        <br>
+
+
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500">Meddelande</label>
+        <textarea id="message" rows="4"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Lämna ett meddelande..."></textarea>
+        <br>
+
+        <fieldset>
+          <legend class="sr-only">Checkbox variants</legend>
+          <span>Hur många års erfarenhet har du inom IT-branchen?</span><br><br>
+
+
+          <div class="flex items-center mb-4">
+            <input id="checkbox-2" type="checkbox" value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="checkbox-2" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ett år eller
+              mindre</label>
+          </div>
+
+          <div class="flex items-center mb-4">
+            <input id="checkbox-3" type="checkbox" value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="checkbox-3" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mer än ett
+              år</label>
+          </div>
+
+        </fieldset>
+
+        <button type="submit"
+          class="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Skicka</button>
+      </form>
+      <br><br><br>
+
+      <!--Table-->
+
+
+      <div class="overflow-x-auto relative rounded-xl">
+        <table class="w-full text-sm text-left  text-gray-500 dark:text-gray-400">
+          <thead class="text-ms text-white uppercase bg-gray-900 dark:bg-gray-700 dark:text-gray-400 ">
+            <tr>
+              <th scope="col" class="py-3 px-6">
+                Förrnamn
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Efternamn
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Yrke
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Erfarenhet
+              </th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
+                Samia
+              </th>
+              <td class="py-4 px-6">
+                Makni
+              </td>
+              <td class="py-4 px-6">
+                Webbredaktör
+              </td>
+              <td class="py-4 px-6">
+                Ett år eller mindre
+              </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
+                Laila
+              </th>
+              <td class="py-4 px-6">
+                Oulay
+              </td>
+              <td class="py-4 px-6">
+                Webbutvecklare
+              </td>
+              <td class="py-4 px-6">
+                Mer än ett år
+              </td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-800">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
+                Souhaila
+              </th>
+              <td class="py-4 px-6">
+                Marzog
+              </td>
+              <td class="py-4 px-6">
+                It-ingenjör
+              </td>
+              <td class="py-4 px-6">
+                Ett år eller mindre
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
+                Adi
+              </th>
+              <td class="py-4 px-6">
+                Kala
+              </td>
+              <td class="py-4 px-6">
+                Webbutvecklare
+              </td>
+              <td class="py-4 px-6">
+                Mer än ett år
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap dark:text-white">
+                Sadi
+              </th>
+              <td class="py-4 px-6">
+                Haouari
+              </td>
+              <td class="py-4 px-6">
+                Webbredaktör
+              </td>
+              <td class="py-4 px-6">
+                Mer än ett år
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
   </div>
 
 </body>
